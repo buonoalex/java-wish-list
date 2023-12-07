@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f8e8ba8-2aab-4bc8-be00-68fedc9ace5d" name="Changes" comment="Start project">
+    <list default="true" id="6f8e8ba8-2aab-4bc8-be00-68fedc9ace5d" name="Changes" comment="Finish work and add exception">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/gift/Gift.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/lessons/java/gift/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/gift/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,11 +66,20 @@
       <option name="project" value="LOCAL" />
       <updated>1701962526845</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finish work and add exception">
+      <option name="closed" value="true" />
+      <created>1701965522085</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701965522085</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start project" />
+    <MESSAGE value="Finish work and add exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish work and add exception" />
   </component>
 </project>

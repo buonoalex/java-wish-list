@@ -14,7 +14,6 @@ public class Main {
         boolean sentinella = false;
         System.out.println("Benvenuto nella tua lista personale!!!");
 
-        try {
             while (!sentinella){
                 System.out.println("Vuoi aggiungere un regalo (y/n) : ");
                 String selectionMenu = myBroScan.nextLine();
@@ -23,6 +22,7 @@ public class Main {
                         System.out.println("Inserisci il nome del regalo : ");
                         String nameGift = myBroScan.nextLine();
                         boolean added = myGiftList.add(nameGift);
+
                         if (!added) {
                             System.out.println("Il regalo è gia stato inserito");
                         }
@@ -38,9 +38,6 @@ public class Main {
                 }
                 System.out.println(myGiftList.size());
             }
-        }catch (Exception exception){
-            System.out.println(exception.getMessage());
-        }finally {
 
             //Stampo Regali
             for (String element : myGiftList){
@@ -53,4 +50,3 @@ public class Main {
         }
 
     }
-}
